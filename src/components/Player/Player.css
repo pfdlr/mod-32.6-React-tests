@@ -1,0 +1,33 @@
+.Player {
+    display: flex;
+    justify-content: space-around;
+    margin: 3px auto;
+    padding: 5px;
+    background-color: beige;
+    width: 95%;
+    border: solid 1px black;
+}
+.Player__name {
+    width:50%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.Player__score {
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+}
+.Player__button {
+    cursor: pointer;
+    margin: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(228, 253, 184);
+    border: solid 1px rgb(2, 109, 2);
+    text-align: center;
+    line-height: 17px;
+}
+.Player__button:hover {
+    background-color: rgb(253, 246, 184); 
+}

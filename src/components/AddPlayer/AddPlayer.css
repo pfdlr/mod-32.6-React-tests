@@ -1,0 +1,15 @@
+.AddPlayer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid 3px seagreen;
+}
+
+.AddPlayer__input {
+    width: 65%;
+}
+
+.AddPlayer__submit {
+    background: burlywood;
+    width: 30%;
+}
